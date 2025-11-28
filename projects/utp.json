@@ -1,0 +1,53 @@
+{
+  "name": "utp",
+  "facility_size_acres": 10.0,
+  "facility_size_meters": 40470.0,
+  "description": "",
+  "canvas_width_m": 201.17156856772777,
+  "canvas_height_m": 201.17156856772777,
+  "production_config": {
+    "facility_type": "Oil & Gas Refinery",
+    "crude_throughput_bbl_day": 50000,
+    "power_capacity_kw": 25000,
+    "load_factor_pct": 75,
+    "operating_hours_day": 20
+  },
+  "production_configured": true,
+  "equipment": [
+    {
+      "equipment": {
+        "id": "fb8ea632-bfde-44b4-91c1-afbed6849d49",
+        "name": "Boiler",
+        "category": "Process Heating & Steam",
+        "power_rate_kw": 3000.0,
+        "operation_time_hours": 8760.0,
+        "fuel_type": "Natural Gas",
+        "fuel_consumption_rate": 100.0,
+        "description": "Steam generation boiler",
+        "icon": "\u25b2"
+      },
+      "x_position": 110.0,
+      "y_position": 110.0
+    }
+  ],
+  "summary": {
+    "total_equipment": 1,
+    "total_co2_kg": 4667.294117647059,
+    "total_crude_processing_bbl_day": 2793.1034482758623,
+    "total_crude_processing_tonnes_year": 138744.6206896552,
+    "facilities_efficiency": 0.012286812764321415,
+    "by_category": {
+      "Process Heating & Steam": {
+        "count": 1,
+        "co2_kg": 4667.294117647059
+      }
+    },
+    "by_fuel_type": {
+      "Natural Gas": {
+        "count": 1,
+        "co2_kg": 4667.294117647059
+      }
+    }
+  },
+  "last_modified": "2025-11-19T15:34:02.416443"
+}

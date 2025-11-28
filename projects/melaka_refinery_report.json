@@ -1,0 +1,250 @@
+{
+  "project_name": "Melaka Refinery",
+  "generation_date": "2025-11-19T14:25:07.856790",
+  "summary": {
+    "total_equipment": 21,
+    "total_co2_kg": 197792.39567230726,
+    "total_crude_processing_bbl_day": 8586.498652366003,
+    "total_crude_processing_tonnes_year": 426525.73405762884,
+    "facilities_efficiency": 0.1693770545379314,
+    "by_category": {
+      "Non-Combustion": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Utility": {
+        "count": 4,
+        "co2_kg": 644.0913242009132
+      },
+      "Process Heating & Steam": {
+        "count": 6,
+        "co2_kg": 22022.240128928286
+      },
+      "Drivers & Machinery": {
+        "count": 2,
+        "co2_kg": 28272.32876712329
+      },
+      "Flaring & Destructor": {
+        "count": 5,
+        "co2_kg": 1389.7354520547945
+      },
+      "Power Generation": {
+        "count": 2,
+        "co2_kg": 145464.0
+      }
+    },
+    "by_fuel_type": {
+      "None": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Natural Gas": {
+        "count": 13,
+        "co2_kg": 187730.83556271825
+      },
+      "Diesel": {
+        "count": 2,
+        "co2_kg": 9251.506849315072
+      },
+      "Electric": {
+        "count": 2,
+        "co2_kg": 0.0
+      },
+      "Gas": {
+        "count": 2,
+        "co2_kg": 810.0532602739726
+      }
+    }
+  },
+  "equipment_details": [
+    {
+      "name": "Crude Tank",
+      "category": "Non-Combustion",
+      "co2_emissions": 0.0,
+      "position": {
+        "x": 180.0,
+        "y": 190.0
+      }
+    },
+    {
+      "name": "Crude Tank",
+      "category": "Non-Combustion",
+      "co2_emissions": 0.0,
+      "position": {
+        "x": 180.0,
+        "y": 160.0
+      }
+    },
+    {
+      "name": "Glycol Reboiler",
+      "category": "Utility",
+      "co2_emissions": 322.0456621004566,
+      "position": {
+        "x": 180.0,
+        "y": 130.0
+      }
+    },
+    {
+      "name": "Glycol Reboiler",
+      "category": "Utility",
+      "co2_emissions": 322.0456621004566,
+      "position": {
+        "x": 165.0,
+        "y": 130.0
+      }
+    },
+    {
+      "name": "Process Heater",
+      "category": "Process Heating & Steam",
+      "co2_emissions": 1864.7864625302177,
+      "position": {
+        "x": 180.0,
+        "y": 100.0
+      }
+    },
+    {
+      "name": "Boiler",
+      "category": "Process Heating & Steam",
+      "co2_emissions": 3196.776792908945,
+      "position": {
+        "x": 165.0,
+        "y": 100.0
+      }
+    },
+    {
+      "name": "Gas Engine Compressor",
+      "category": "Drivers & Machinery",
+      "co2_emissions": 19020.821917808218,
+      "position": {
+        "x": 180.0,
+        "y": 65.0
+      }
+    },
+    {
+      "name": "Pump Engine Drive",
+      "category": "Drivers & Machinery",
+      "co2_emissions": 9251.506849315072,
+      "position": {
+        "x": 160.0,
+        "y": 65.0
+      }
+    },
+    {
+      "name": "Chiller",
+      "category": "Utility",
+      "co2_emissions": 0.0,
+      "position": {
+        "x": 180.0,
+        "y": 35.0
+      }
+    },
+    {
+      "name": "Chiller",
+      "category": "Utility",
+      "co2_emissions": 0.0,
+      "position": {
+        "x": 160.0,
+        "y": 35.0
+      }
+    },
+    {
+      "name": "Flare Stack",
+      "category": "Flaring & Destructor",
+      "co2_emissions": 405.0266301369863,
+      "position": {
+        "x": 140.0,
+        "y": 100.0
+      }
+    },
+    {
+      "name": "Flare Stack",
+      "category": "Flaring & Destructor",
+      "co2_emissions": 405.0266301369863,
+      "position": {
+        "x": 140.0,
+        "y": 65.0
+      }
+    },
+    {
+      "name": "Thermal Oxidizer",
+      "category": "Flaring & Destructor",
+      "co2_emissions": 289.84109589041094,
+      "position": {
+        "x": 110.0,
+        "y": 110.0
+      }
+    },
+    {
+      "name": "Thermal Oxidizer",
+      "category": "Flaring & Destructor",
+      "co2_emissions": 289.84109589041094,
+      "position": {
+        "x": 110.0,
+        "y": 80.0
+      }
+    },
+    {
+      "name": "Incinerator",
+      "category": "Flaring & Destructor",
+      "co2_emissions": 0.0,
+      "position": {
+        "x": 110.0,
+        "y": 40.0
+      }
+    },
+    {
+      "name": "Gas Turbine",
+      "category": "Power Generation",
+      "co2_emissions": 72732.0,
+      "position": {
+        "x": 110.0,
+        "y": 140.0
+      }
+    },
+    {
+      "name": "Boiler",
+      "category": "Process Heating & Steam",
+      "co2_emissions": 3196.776792908945,
+      "position": {
+        "x": 85.0,
+        "y": 110.0
+      }
+    },
+    {
+      "name": "Gas Turbine",
+      "category": "Power Generation",
+      "co2_emissions": 72732.0,
+      "position": {
+        "x": 110.0,
+        "y": 165.0
+      }
+    },
+    {
+      "name": "Boiler",
+      "category": "Process Heating & Steam",
+      "co2_emissions": 3196.776792908945,
+      "position": {
+        "x": 190.0,
+        "y": 110.0
+      }
+    },
+    {
+      "name": "Atmospheric Distillation Column",
+      "category": "Process Heating & Steam",
+      "co2_emissions": 5283.561643835617,
+      "position": {
+        "x": 123.0,
+        "y": 110.0
+      }
+    },
+    {
+      "name": "Atmospheric Distillation Column",
+      "category": "Process Heating & Steam",
+      "co2_emissions": 5283.561643835617,
+      "position": {
+        "x": 50.0,
+        "y": 110.0
+      }
+    }
+  ]
+}
